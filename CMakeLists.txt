@@ -17,7 +17,7 @@ include_directories(
 set (SRC
         main.cpp
         #Vos sources
-        Led.cpp Led.h LedController.cpp LedController.h)
+        Led.h LedController.cpp LedController.h)
 
 add_executable(gtk1
         ${SRC} )
